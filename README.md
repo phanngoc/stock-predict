@@ -15,3 +15,8 @@ FinBERT is a pre-trained NLP model to analyze sentiment of financial text. It is
 
 - Example for FinBERT:
 https://colab.research.google.com/drive/1C6_ahu0Eps_wLKcsfspEO0HIEouND-oI?usp=sharing#scrollTo=eYN11L3YWNHz
+
+### Lấy dữ liệu từ chatGPT bằng chromium driver, không bị giới hạn số token :)
+[Openai Chromium get data prompt](openai-chromium.ipynb)
+
+
