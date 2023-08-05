@@ -1,12 +1,9 @@
 
-from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 import pandas as pd
-        
+from keras.layers import LSTM, Dense, Dropout
 from keras.models import Sequential
-from keras.layers import Dense
-from keras.layers import LSTM
-from keras.layers import Dropout
+from sklearn.preprocessing import MinMaxScaler
 
 
 class TrainRnn:
@@ -61,3 +58,4 @@ class TrainRnn:
         result = self.regressor.predict(raw_transform_data)
         predicted_price = self.scaler.inverse_transform(result)
         return predicted_price
+
